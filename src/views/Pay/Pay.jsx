@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Pay() {
   return (
-    <div>Pay</div>
-  )
+    <div>
+      <h1>Pay</h1>
+    </div>
+  );
 }
 
-export default Pay
+export default Pay;

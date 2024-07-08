@@ -1,11 +1,14 @@
 import React from "react";
 import "./index.scss";
+import dncLogo from "../../assets/logo-dnc.png"
 
 function Header() {
   return(
-    <div>
-        <h1>Header</h1>
-    </div>;
+    <div className="header">
+        <div>
+            <img src={dncLogo} alt="dncLogo"></img>
+        </div>
+    </div>
   );
   
 }

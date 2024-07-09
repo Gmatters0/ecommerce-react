@@ -15,7 +15,7 @@ function Search() {
         />
         <input type="text" placeholder="Search" />
       </div>
-      <img src={profileLogo} alt="profile logo" className="search__outside-icons" />
+      <img src={profileLogo} alt="profile logo" className="search__outside-icons--profile" />
       <img src={favoriteLogo} alt="favorite logo" className="search__outside-icons"/>
     </div>
   )

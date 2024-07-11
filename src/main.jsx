@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Login from "./views/Login/Login.jsx";
-import Home from "./views/Home/Home.jsx";
-import Products from "./views/Products/Products.jsx";
-import Pay from "./views/Pay/Pay.jsx";
-import { PRODUCTS_MOCK } from "./mock/products.mock.js";
+import Login from "./views/Login/Login";
+import Home from "./views/Home/Home";
+import Products from "./views/Products/Products";
+import Pay from "./views/Pay/Pay";
+import { PRODUCTS_MOCK } from "./mock/products.mock";
 
 const router = createBrowserRouter([
   {
